@@ -1,0 +1,45 @@
+{
+	//uviewF
+	"easycom": {
+		// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+		"custom": {
+			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "TermDo",
+				"bounce": "none", //解决拉伸问题
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "black" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+				//自定义图标按钮
+				// "titleNView": {
+				// 	"buttons": [{
+				// 		"text": "\ue6b3",
+				// 		"fontSrc": "/static/iconfont.ttf",
+				// 		"fontSize": "18",
+				// 		"float": "right"
+				// 	}]
+				// }
+			}
+		},
+		{
+			"path": "pages/init/init",
+			"style": {
+				"bounce": "none", //解决拉伸问题
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "TermDo",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"pageOrientation": "portrait" //启动横屏
+	},
+	"uniIdRouter": {}
+}

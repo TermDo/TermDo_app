@@ -1,0 +1,17 @@
+{
+	"name": "TermDo_core",
+	"id": "TermDo_core",
+	"version": "1.1.0",
+	"description": "A native uni-app plugin for TermDo.",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"android": {
+			"plugins": [{
+				"type": "module",
+				"name": "TermDo_core",
+				"class": "com.termdo.core.Core"
+			}],
+			"integrateType": "aar"
+		}
+	}
+}

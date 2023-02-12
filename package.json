@@ -1,0 +1,19 @@
+{
+	"name": "TermDo_app",
+	"version": "1.0.1",
+	"description": "node moudles for TermDo",
+	"author": "Zakiaatot",
+	"license": "MIT",
+	"dependencies": {
+		"clipboard": "^2.0.11",
+		"dayjs": "^1.11.7",
+		"uview-plus": "^3.1.24",
+		"xterm": "^5.1.0",
+		"xterm-addon-fit": "^0.7.0",
+		"xterm-addon-webgl": "^0.14.0"
+	},
+	"devDependencies": {
+		"sass": "^1.58.0",
+		"sass-loader": "10"
+	}
+}
